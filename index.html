@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHC y Tecnologias Moviles</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#downloadB" id="download">DOWNLOAD</a></li>
+                <li><a href="#">LOG IN</a></li>
+                <li><a href="#registroR">SING UP</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--INICIO-->
+        <section id="downloadB" class="banner">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <div class="containerB row">
+                <div class="boxB col1-md-5 col12 ">
+                    <img src="img/inicio.png" class="imgBanner" alt="">
+               </div>
+                <div class="boxB col2">
+                    <h1>HISTORIA</h1>
+                    <h1>CLINICA VIRTUAL</h1>
+                    <p id="txtBanner"> AL ALCANCE DE LOS CENTROS DE SALUD Y DEL PACIENTE</p>
+                    <div>
+                        <a class="btnBanner" href="#">
+                            <img src="img/android.png" alt="Imagen 1"class="download-image">
+                            <img src="img/apple.png" alt="Imagen 2"class="download-image">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Portafolio-->
+        <section class="portafolio" id="portafolio">
+            <div class="SubPortafolio">
+                <h2>¡DESIGNERS!</h2>
+                <p>
+                    Construyendo un futuro de salud publica más accesible y eficiente en el Perú
+                </p>
+            </div>
+            <div class="containeP container">
+                <div class="boxP">
+                    <h2 class="subtitle">Tu solución para gestionar tu Salud</h2>
+                    <p class="boxP__paragraph">- Acceso rápido a la información médica.<br>
+                        - Seguridad de Datos.<br>
+                        - Ahorro de tiempo y dinero.<br>
+                        - Historial Clínico completo.<br>
+                        - Compara los diagnósticos con una IA.<br></p>
+                </div>
+                <figure class="boxP__picture">
+                    <img src="img/icon1.png" class="boxP__img">
+                </figure>
+            </div>
+        </section>
+
+        <!--SERVICIOS-->
+        <section class="servicio">
+            <div class="SubServicio">
+                <h5>Descubre nuevas herramientas</h5>
+            </div>
+            <div class="containeS">
+                <div class="boxS">
+                    <img src="img/icon01.png" alt="">
+                    <h4>Historial Clinico</h4>
+                    <p>
+                        Accede a tu historial médico completo en un solo lugar. Olvídate de cargar registros en papel o depender de la memoria. Mejora la precisión de la atención médica y reduce repeticiones de pruebas y gastos innecesarios.
+                    </p>
+                </div>
+                <div class="boxS">
+                    <img src="img/icon02.png" alt="">
+                    <h4>Comparación de Diagnosticos</h4>
+                    <p>
+                        Utiliza la inteligencia artificial para analizar diagnósticos anteriores, identifica patrones y toma decisiones más precisas en el tratamiento médico. Personaliza tu atención médica de manera eficiente.
+                    </p>
+                </div>
+                <div class="boxS">
+                    <img src="img/icon03.png" alt="">
+                    <h4>Gestion de Medicamentos</h4>
+                    <p>
+                        Ofrece una función para registrar y realizar un seguimiento de los medicamentos prescritos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIOS-->
+
+
+        <!-- Registro -->
+        <section id="registroR" class="registro">
+            <div class="SubRegistro">
+                <h3>¡REGISTRATE!</h3>
+                <p>Forma parte de nuestra comunidad</p>
+            </div>
+            <div class="formulario-registro">
+                <form id="registro-form">
+                    <div class="campo">
+                        <input type="text" placeholder="Nombre" id="nombre" name="nombre" required>
+                        <input type="text" placeholder="Apellido" id="apellido" name="apellido" required>
+                        <input type="email" placeholder="Correo electronico" id="correo" name="correo" required>
+                        <input type="text" placeholder="Username" id="username" name="username" required>
+                        <input type="password" placeholder="Password" id="password" name="password" required>
+                        <input type="text" placeholder="Codigo COP" id="codigo-cop" name="codigo-cop">
+                        <input type="text" placeholder="Codigo de Activación" id="codigo-activacion" name="codigo-activacion">
+                        <select id="tipo-registro" name="tipo-registro">
+                            <option value="paciente">Registrarse como Paciente</option>
+                            <option value="doctor">Registrarse como Doctor</option>
+                        </select>
+                    </div>
+                    <button type="submit">Registrarse</button>
+                    <p class="mensaje" id="registro-mensaje">Si eres paciente, deja en blanco Codigo COP y Activación.</p>
+                </form>
+                <div class="imagen-registro">
+                    <img src="img/registro.png" alt="Imagen de registro">
+                </div>
+            </div>
+        </section>
+
+        <!-- PIE DE PÁGINA -->
+        <section class="pie">
+            <div class="container-pie">
+                <div class="contact-info">
+                    <h5>Contacto</h5>
+                    <p>Email: designers2023@gmail.com</p>
+                    <p>Teléfono: (+51) 555-555-555</p>
+                </div>
+                <div class="social-media">
+                    <h5>Redes Sociales</h5>
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Twitter</a>
+                    <a href="#" target="_blank">Instagram</a>
+                </div>
+                <div class="libro-reclamación">
+                    <h5>Libro de Reclamaciones</h5>
+                    <p>Si tiene alguna queja o reclamo sobre nuestra <br>
+                        aplición Medih, contáctese con nosotros</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>     
