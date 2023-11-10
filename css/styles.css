@@ -432,5 +432,137 @@ h3{
 }
 
 .social-media a:hover {
-    color: #B0C5FF; /* Color de resaltado al pasar el cursor */
+    color: #B0C5FF; 
+}
+
+.SubPie h5{
+    font-size: 0.7rem;
+    color: #fff;
+    font-family: "Arial Bold", Arial, sans-serif;
+}
+
+/* Autores */
+
+.autor{
+    background-color: #e5f7f2;
+    animation:mostrar 1.5s ease-in-out;
+}
+
+.Subautor{
+    background-color: #e5f7f2;
+    top: 40px;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #0db17a;
+    font-family: "Arial Bold", Arial, sans-serif;
+}
+
+.continerA{
+    display:grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap:1em;
+    align-items:center;
+    font-family: "Arial Bold", Arial, sans-serif;
+}
+.bodyA{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap:2em;
+    grid-column: 2/3;
+    grid-row:1/2;
+    opacity:0;
+    pointer-events:none;
+    font-family: "Arial Bold", Arial, sans-serif;
+}
+.bodyA--show{
+    pointer-events:unset;
+    opacity:1;
+    transition:opacity 1.5s ease-in-out;
+    font-family: "Arial Bold", Arial, sans-serif;
+}
+.imgA{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    object-position:50% 30%;
+    margin-right: 200px;
+    margin-bottom: 40px;
+}
+.textsA{
+    margin-left: 200px;
+    max-width:900px;
+    font-family: "Arial Bold", Arial, sans-serif;
+}
+.courseA{
+    background-color:#54ad88;
+    color:#fff;
+    display:inline-block;
+    padding:5px;
+    font-family: "Arial Bold", Arial, sans-serif;
+}
+.arrow{
+    width:90%;
+    cursor:pointer;
+}
+
+/* Segmento */
+
+.segmento{
+    padding: 0rem 0;
+    animation:mostrar 1.5s ease-in-out;
+    margin-bottom: 50px;
+}
+.SubSegmento{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #d11d86;
+    font-family: "Arial Bold", Arial, sans-serif;
+    margin-top: 50px;
+}
+
+h5{
+    font-size: 1.8rem;
+}
+.containeSeg{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 2rem;
+ 
+}
+.boxSeg{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#fff3fb,#dcfdf0);
+    border-radius: 1em;
+}
+.boxSeg img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.boxSeg p{
+    text-align: center;
+    color: #05066D;
+    margin-top: 10px;
+    font-family: "Arial Bold", Arial, sans-serif;
+}
+
+h4{
+
+    color: #05066D;
+    font-family: "Arial Bold", Arial, sans-serif;
+}
+
+.imaSeg{
+    width:500px;
+    height: auto;
+    object-fit:inherit;
 }
