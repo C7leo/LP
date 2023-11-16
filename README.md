@@ -2,6 +2,15 @@
 
 Bienvenidos al repositorio del proyecto Medih, una plataforma de salud digital diseñada para mejorar la accesibilidad y eficiencia en la atención médica en el Perú. A continuación, encontrarás información relevante sobre el proyecto y cómo utilizarlo.
 
+## Iniciar Sesión
+
+Para iniciar sesión en la aplicación, sigue estos pasos:
+
+1. Selecciona LOG IN en la barra de navegación.
+2. Selecciona la opción correspondiente al tipo de usuario (Doctor o Paciente).
+3. Ingresa tu nombre de usuario y contraseña en los campos proporcionados.
+4. Haz clic en el botón "Iniciar Sesión".
+
 ## Descripción de la APP
 
 - Acceso rápido a la información médica.
@@ -11,6 +20,8 @@ Bienvenidos al repositorio del proyecto Medih, una plataforma de salud digital d
 - Comparación de diagnósticos con inteligencia artificial.
 - Gestión de medicamentos.
 - Dirigido a pacientes mayores de 18 años y profesionales de la salud.
+
+¡Listo! Ahora estarás conectado a tu cuenta en la aplicación Medih.
 
 ## Hermanientas de la APP
 
@@ -55,10 +66,7 @@ Medih ha sido desarrollado por un equipo de ingenieros comprometidos con la mejo
 
 ## Pie de pagina
 
-Si tienes alguna pregunta o comentario sobre Medih, no dudes en contactarnos:
-
-- Correo Electrónico: designers2023@gmail.com
-- Teléfono: (+51) 555-555-555
+Si tienes alguna pregunta o comentario sobre Medih, no dudes en contactarnos a traves de un formulario 
 
 También puedes seguirnos en nuestras redes sociales:
 - [Facebook](#)
@@ -66,3 +74,5 @@ También puedes seguirnos en nuestras redes sociales:
 - [Instagram](#)
 
 Si tiene alguna queja o reclamo sobre nuestra aplición Medih, contáctese con nosotros a traves del libro de reclamaciones
+
+Derechos de autor: Copyright © 2023 - MEDIH (DESIGNERS)
