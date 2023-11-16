@@ -26,3 +26,27 @@
 
 
 })();
+
+const download = document.querySelector("#download");
+        download.addEventListener("click", (s) => {
+            s.preventDefault();
+
+            const downloadSection = document.querySelector("#downloadB");
+            downloadSection.scrollIntoView({ behavior: "smooth" });
+        });
+
+const registro = document.querySelector("#signup");
+        registro.addEventListener("click", (p) => {
+            p.preventDefault();
+
+            const registroSection = document.querySelector("#registroR");
+            registroSection.scrollIntoView({ behavior: "smooth" });
+        });
+
+const contacto = document.querySelector("#contacto");
+    contacto.addEventListener("click", (o) => {
+            o.preventDefault();
+
+            const contactoSection = document.querySelector("#contactoC");
+            contactoSection.scrollIntoView({ behavior: "smooth" });
+        });
